@@ -1,5 +1,7 @@
 package polymorphism;
 
+import java.util.Arrays;
+
 class Product2 {
     int price;  // 제품의 가격
     int bonusPoint; // 제품 구매시 제공하는 보너스 점수
@@ -30,6 +32,8 @@ class Computer2 extends Product2 {
 class Buyer3 {
     int money = 1000;   // 고객이 가진 돈.
     int bonusPoint = 0; // 고객의 보너스 점수.
+    Product2[] cart = new Product2[10];  // 구입한 제품을 저장하기 위한 배열(카트)
+    int i = 0;
 
     void buy(Product2 product2) {
         if (money < product2.price) {
@@ -38,7 +42,9 @@ class Buyer3 {
         }
         money -= product2.price;
         bonusPoint += product2.bonusPoint;
+        cart[i++] = product2;
         System.out.println(product2 + "을/를 구입하셨습니다.");
+        System.out.println("cart:" + Arrays.toString(cart));
     }
 }
     public class Ex7_8 {
