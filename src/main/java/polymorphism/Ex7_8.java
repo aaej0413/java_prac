@@ -26,6 +26,7 @@ class Computer2 extends Product2 {
         super(200);
     }
     public String toString() {
+
         return "Computer2";
     }
 }
@@ -57,5 +58,7 @@ class Buyer3 {
             System.out.println("현재 남은 돈은 " + b.money + "만원 입니다.");
             System.out.println("현재 보너스 점수는 " + b.bonusPoint + "점 입니다.");
         }
+
+
     }
 

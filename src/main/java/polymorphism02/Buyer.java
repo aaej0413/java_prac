@@ -9,16 +9,16 @@ public class Buyer {
     Product[] cart = new Product[10];
     int count = 0;
 
-    void buy(Product product) {
-        if (money < product.price) {
+    void buy(Product p) {
+        if (money < p.price) {
             System.out.println("잔액이 부족하여 물건을 살 수 없습니다.");
             return;
         }
 
-        money -= product.price;
-        bonusPoint += product.bonusPoint;
-        cart[count++] = product;
-        System.out.println(product + "을 구매하셨습니다.");
+        money -= p.price;
+        bonusPoint += p.bonusPoint;
+        cart[count++] = p;
+        System.out.println(p + "을 구매하셨습니다.");
         System.out.println("cart: " + Arrays.toString(cart));
     }
 

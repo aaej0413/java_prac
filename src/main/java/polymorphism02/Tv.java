@@ -1,12 +1,15 @@
 package polymorphism02;
 
-public class Tv extends Product{
+public class Tv extends Product {
 
-    Tv(){
+    Tv() {
         super(100);
     }
 
     public String toString() {
         return "TV";
     }
+
+
 }
+
