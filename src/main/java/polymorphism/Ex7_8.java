@@ -44,7 +44,9 @@ class Buyer3 {
         money -= product2.price;
         bonusPoint += product2.bonusPoint;
         cart[i++] = product2;
-        System.out.println(product2 + "을/를 구입하셨습니다.");
+        System.out.println(product2 + "을/를 구입하셨습니다.");      // product2 == product2.toString() ->
+                                                                // 참조변수와 String을 결합할 때,
+                                                                // product2.toString()으로 변환돼서 반환.
         System.out.println("cart:" + Arrays.toString(cart));
     }
 }
