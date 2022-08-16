@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism01;
 
 public class Buyer {
     int money = 1000;   // 고객, 물건을 사는 사람이 가진 돈

@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism01;
 
 public class Ex7_7 {
     public static void main(String[] args) {

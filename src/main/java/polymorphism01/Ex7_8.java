@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism01;
 
 import java.util.Arrays;
 

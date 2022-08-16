@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism01;
 
 /*
 Buyer에 다형성을 적용하면 아래와 같이 된다.

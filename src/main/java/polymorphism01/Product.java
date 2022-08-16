@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism01;
 
 public class Product {
     int price;      //  제품의 가격

@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism01;
 
 /*
 다형성이란? - 여러가지 형태를 가질 수 있는 능력을 의미하며,
